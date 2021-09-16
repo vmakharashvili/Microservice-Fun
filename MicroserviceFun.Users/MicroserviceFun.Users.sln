@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceFun.Users", "MicroserviceFun.Users\MicroserviceFun.Users.csproj", "{4CFD6947-F209-45E2-B0A4-B71E292F2BFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "K8S", "K8S", "{760FEF17-E697-41B5-A3AD-75665F8F1126}"
+	ProjectSection(SolutionItems) = preProject
+		K8S\ingress-srv.yaml = K8S\ingress-srv.yaml
+		K8S\local-pvc.yaml = K8S\local-pvc.yaml
+		K8S\microservicefun-mssql-depl.yaml = K8S\microservicefun-mssql-depl.yaml
+		K8S\microservicefun-np-srv.yaml = K8S\microservicefun-np-srv.yaml
+		K8S\users-depl.yaml = K8S\users-depl.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CFD6947-F209-45E2-B0A4-B71E292F2BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFD6947-F209-45E2-B0A4-B71E292F2BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFD6947-F209-45E2-B0A4-B71E292F2BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFD6947-F209-45E2-B0A4-B71E292F2BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {723B4C53-F872-44B0-9638-090FDC6EEEF1}
+	EndGlobalSection
+EndGlobal
